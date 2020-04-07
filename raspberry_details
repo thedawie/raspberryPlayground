@@ -1,0 +1,14 @@
+
+--connect to pi
+ssh pi@192.168.1.16
+
+
+--to copy files over
+sudo scp raspberry_details pi@192.168.1.16:/home/pi/Desktop/
+
+
+-- GPIO
+
+ground into the positive
+pin number into the lane
+
